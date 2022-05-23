@@ -1,15 +1,20 @@
 #include "lib.hpp"
-#include <vector>
 #include <iostream>
 
 int main(const int argc, const char* argv[])
 {
 
-  std::vector<Account> accounts = accountsFromTxtFile(std::ifstream("accounts.txt"));
+  std::ifstream accountsFile("accounts.txt") ;
 
-  for(const auto &account: accounts) {
-    auto code = TOTP(account);
-    std::cout << account.name << ": " << code << std::endl;
+  if (accountsFile.good()) {
+    auto accounts = accountsFromTxtFile(accountsFile);
+
+    for (const auto& account : accounts) {
+      auto code = TOTP(account);
+      std::cout << account.name << ": " << code << std::endl;
+    }
+  } else {
+    std::cerr << "File 'accounts.txt' not found. You need to create one(ex. ACCOUNT||KEY) in order to work" << std::endl;;
   }
 
   return 0;
