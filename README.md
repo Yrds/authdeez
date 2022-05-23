@@ -8,9 +8,11 @@ Openssl (libcrypto)
 
 ## Compilling
 
-`meson subprojects download`
-`meson setup build`
-`meson compile -C build`
+```
+meson subprojects download
+meson setup build
+meson compile -C build
+```
 
 ## Testing
 
