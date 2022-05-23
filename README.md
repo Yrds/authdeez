@@ -1,6 +1,6 @@
 # Authdeez
 
-Authdeez it's an (experimental) authenticator (like Google Authenticator) for desktops systems
+Authdeez it's an (experimental) authenticator (like Google Authenticator) for desktops systems.
 
 ## Dependencies
 
@@ -16,13 +16,13 @@ meson compile -C build
 
 ## Testing
 
-After compiling, you can find all tests in `./build/all_tests` (quite intuitive huh?)
+After compiling, you can find all tests in `./build/all_tests` (quite intuitive huh?).
 
 ## Running
 
-Check accounts.example.txt for store keys in a file and rename it to `accounts.txt`
+Check accounts.example.txt for store keys in a file and rename it to `accounts.txt`.
 
-Run with `./build/authdeez/`
+Run with `./build/authdeez/`.
 
 ## Example 
 
