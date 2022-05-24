@@ -30,4 +30,9 @@ Run with `./build/authdeez/`.
 
 ## Milestones
 
-- [ ] protect accounts.txt with a password
+- [ ] Better Cli usage
+- [ ] Configuration File with default location
+- [ ] Release Binaries
+- [ ] Protect accounts.txt with a password
+- [ ] GUI
+
