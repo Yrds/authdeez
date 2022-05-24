@@ -1,6 +1,6 @@
 # Authdeez
 
-Authdeez it's an (experimental) authenticator (like Google Authenticator) for desktops systems that uses HOTP/TOTP Algorithm to generate temporary passcodes to 2factor authentication.
+Authdeez it's an (experimental) authenticator (like Google Authenticator) for desktops systems, that uses [HOTP](https://www.rfc-editor.org/rfc/rfc4226)/[TOTP](https://datatracker.ietf.org/doc/html/rfc6238) Algorithm to generate temporary passcodes to 2factor authentication.
 
 ## Dependencies
 
